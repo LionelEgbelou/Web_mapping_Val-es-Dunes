@@ -49,7 +49,7 @@
             zoomControl:false, maxZoom:28, minZoom:6
         }).fitBounds([[48.90900096433799,-0.6356102757743182],[49.301438779137044,0.4391540144625671]]);
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('Réalisé par les étudiants de Licence Professionnelle, Université de Caen, Promo 26-27 · <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
+        map.attributionControl.setPrefix('Réalisé par <b>les étudiants de Licence Professionnelle SIG DAT</b>, Université de Caen, <b>Promo 26-27</b> · <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         // remove popup's row if "visible-with-data"
         function removeEmptyRowsFromPopupContent(content, feature) {
